@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+header h2{
+    font-size: 1.3em;
+    color: hsl(0, 0%, 30%);
+    font-weight: 800;
+    letter-spacing: .1em;
+    text-transform: capitalize;
+}
+header #firstheader
+{
+    color: rgba(124, 251, 255, 0.411);
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+section #info{
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+section button{
+    font-size: 1.4em;
+    color: black;
+    background: transparent;
+    padding: 10px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    border: 1px solid rgb(49, 136, 107);
+    transition: .6s ease;
+    cursor: pointer;
+}
+section button:hover{
+    transform: scale(1.1);
+    background: #000;
+    color: white;
+}
